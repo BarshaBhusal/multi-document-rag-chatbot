@@ -36,6 +36,18 @@ Out-of-scope detection
 * FAISS (Vector Indexing)
 * SentenceTransformer (Embeddings)
 * PyPDF2/python-docx (Parsing)
+## Project Structure:
+multi-document-rag-chatbot/
+│
+├── app.py
+├── app_ui.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── config.py
+
+#### Note: Generate requirements.txt with:
+#### - pip freeze > requirements.txt
 
 ### How to Run
 git clone https://github.com/yourusername/multi-document-rag-chatbot.git
